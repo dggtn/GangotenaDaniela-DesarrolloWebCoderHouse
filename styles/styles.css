@@ -1,16 +1,5 @@
 import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lexend+Deca:wght@500&display=swap" rel="stylesheet")
 
-:root{
-  --ff-title:'Dela Gothic One', sans-serif;
-  --ff-text:'Lexend+Deca',sans-serif;
-  --clr-pink:rgba(94, 0, 24, 0.50);
-  --clr-violet:rgba(113, 31, 31, 0.70);
-  --clr-whitepink:rgba(94, 0, 24, 0.50);
-  --clr-white:#D9D9D9;
-  backdrop-filter: blur(2px);
-  --clr-letras:#A41D5E;
-}
-
 /* Reset margin y padding */
 * {
   margin: 0;
