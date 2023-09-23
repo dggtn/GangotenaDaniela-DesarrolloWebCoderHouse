@@ -1,3 +1,16 @@
+import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lexend+Deca:wght@500&display=swap" rel="stylesheet")
+
+:root{
+  --ff-title:'Dela Gothic One', sans-serif;
+  --ff-text:'Lexend+Deca',sans-serif;
+  --clr-pink:rgba(94, 0, 24, 0.50);
+  --clr-violet:rgba(113, 31, 31, 0.70);
+  --clr-whitepink:rgba(94, 0, 24, 0.50);
+  --clr-white:#D9D9D9;
+  backdrop-filter: blur(2px);
+  --clr-letras:#A41D5E;
+}
+
 /* Reset margin y padding */
 * {
   margin: 0;
@@ -6,9 +19,10 @@
 
 /* Global styles */
 body {
-  background-image: url("../img/museo.jpg");
+  
   font-family: "Roboto", sans-serif;
 }
+.firstbackground{background-image: url("../img/museo.jpg");}
 
 header {
   overflow: hidden;
@@ -54,18 +68,29 @@ h3 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: white;
   font-size: 35px;
+  text-align: left;
+  padding-left: 15%;
+  padding-top: 10%;
 }
 
 .texto {
   color: azure;
   text-align: left;
   padding-left: 15%;
-  padding-top: 10%;
   font-size: 25px;
 }
 
-iframe {
-  float: right;
+
+div.center {
+
+  text-align: center;
+  padding-top: 5%;
+  
+  }
+
+.video {
+  display: block;
+  margin: auto;
 }
 
 .overlayText {
@@ -74,17 +99,28 @@ iframe {
   left: 20%;
   z-index: 1;
 }
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+}
+
+.fondo-rosa {
+  background-color: rgba(94, 0, 24, 0.50);
+}
+.fondo-violeta{
+  background-color:rgba(113, 31, 31, 0.70);
+}
 
 footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #c9c8c2;
-  color: #c26760;
-  font-size: 18px;
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+  }
 }
 
-.texto-centrado {
-  text-align: center;
-}
+
