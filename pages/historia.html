@@ -1,147 +1,157 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Historia</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/styles.css" />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:wght@700&display=swap");
     </style>
   </head>
-
   <body>
-    <header>
-      <a class="logo" href="../index.html">Museo de Bellas Artes</a>
-      <nav class="navbar">
-        <a href="exhibiciones.html">exhibiciones</a>
-        <a href="agenda.html">agenda</a>
-        <a class="active" href="historia.html">historia</a>
-        <a href="contacto.html">contacto</a>
-      </nav>
-    </header>
-    <main>
-      <section id="historia" class="seccion-bienvenida fondo-historia">
-        <div>
-          <div class="row">
-            <div>
-              <h1>Nuestra historia</h1>
-              <p class="texto texto-centrado">
-                El Museo Nacional de Bellas Artes fue inaugurado en diciembre de
-                1896 en el edificio de las tiendas Bon Marché de la calle
-                Florida, hoy Galerías Pacífico. Desde su origen, se planteó como
-                un espacio destinado a albergar arte internacional de todos los
-                períodos históricos, y a promover y consolidar un arte argentino
-                por entonces incipiente.
-              </p>
-            </div>
-          </div>
-          <div class="row">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"
+          ><p style="color: #f06292">Museo Bellas Artes</p></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar"
+          aria-controls="navbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="exhibiciones.html"
+              ><p class="text-dark">exhibiciones</p></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="agenda.html">Agenda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="historia.html">Historia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid text-center fondo-historia">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-white">Nuestra historia</h1>
+          <p class="text-white">
+            El Museo Nacional de Bellas Artes fue inaugurado en diciembre de
+            1896 en el edificio de las tiendas Bon Marché de la calle Florida,
+            hoy Galerías Pacífico. Desde su origen, se planteó como un espacio
+            destinado a albergar arte internacional de todos los períodos
+            históricos, y a promover y consolidar un arte argentino por entonces
+            incipiente.
+          </p>
+        </div>
+
+        <div class="col-md-12">
+          <div class="embed-responsive embed-responsive-16by9">
             <iframe
-              class="video"
-              width="560"
-              height="315"
+              class="embed-responsive-item"
               src="https://www.youtube.com/embed/0mMclZWqChc?si=8Z4rCm-WiXx6lGvl"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+    <div class="container-fluid">
       <div class="row">
-        <div class="column fondo-rosa">
-          <aside class="indice">
-            <div class="texto">
-              <ul>
-                <li><a href="#historia">Historia</a></li>
-              </ul>
-            </div>
-          </aside>
+        <div class="col-md-6 text-center fondo-violeta">
+          <ul>
+            <li><a href="#historia">Historia</a></li>
+          </ul>
         </div>
-        <div class="column fondo-violeta">
-          <!-- Sección "Historia"-->
-          <section class="seccion" id="historia">
-            <div class="row">
-              <div>
-                <h2>Historia</h2>
-                <p class="texto-centrado">
-                  Hacia 1910, en épocas del Centenario de la Revolución de Mayo,
-                  el Museo ya contaba en su colección con piezas de los maestros
-                  Francisco de Goya, Joaquín Sorolla y Bastida, Edgar Degas y
-                  Pierre-Auguste Renoir. En 1911, se inauguró la segunda sede del
-                  Bellas Artes: el Pabellón Argentino, una estructura monumental
-                  que el país había utilizado en la Exposición Universal de París
-                  de 1889 y que fue instalada en la Plaza San Martín. Allí, se
-                  exhibieron nuevas adquisiciones que ampliaron la colección, como
-                  La ninfa sorprendida, de Édouard Manet, y Orillas del Sena, de
-                  Claude Monet. La institución fue trasladada en 1933 a su sede
-                  actual: la antigua Casa de Bombas de Recoleta, remodelada por el
-                  arquitecto Alejandro Bustillo. Durante esos años, se
-                  incorporaron destacadas piezas, entre ellas, Mujer del mar, de
-                  Paul Gauguin, Le Moulin de la Galette, de Vincent van Gogh, y
-                  Jesús en el huerto de los Olivos, de El Greco.
-                </p>
-              </div>
-            </div>
-            <div class="row">
-              <img src="../img/seccion-historia.jpg" />
-            </div>
-            <div class="row">
-              <p class="texto-centrado">
-                Las últimas décadas del siglo XX acogieron a grandes referentes
-                del arte moderno internacional. Así, se sumaron obras de Pablo
-                Picasso, Amedeo Modigliani, Marc Chagall, Vassily Kandinsky,
-                Paul Klee, Lucio Fontana, Jackson Pollock, Mark Rothko y Henry
-                Moore. La historia de la producción local también se narra en
-                las salas del Museo, que exhibe un vasto panorama de arte
-                argentino, con obras de sus mayores representantes como Cándido
-                López, Prilidiano Pueyrredón, Emilio Pettoruti, Xul Solar,
-                Raquel Forner, Grete Stern, Antonio Berni, Alicia Penalba, Gyula
-                Kosice, Marta Minujín, Antonio Seguí y León Ferrari. Además,
-                posee un importante conjunto de arte latinoamericano, que reúne
-                obras de Pedro Figari, Joaquín Torres García, Tarsila Do Amaral,
-                Diego Rivera y Jesús Rafael Soto, entre otras. En sus más de 120
-                años, el Museo Nacional de Bellas Artes ha formado una
-                importante colección de más de trece mil piezas de diferentes
-                períodos artísticos, nacionales e internacionales, que lo
-                constituye como una de las instituciones culturales más
-                relevantes del continente.
-              </p>
-            </div>
-          </section>
+        <div class="col-md-6 text-center fondo-rosa">
+          <h2 class="text-white">Nuestra historia</h2>
+          <p>
+            Hacia 1910, en épocas del Centenario de la Revolución de Mayo, el
+            Museo ya contaba en su colección con piezas de los maestros
+            Francisco de Goya, Joaquín Sorolla y Bastida, Edgar Degas y
+            Pierre-Auguste Renoir. En 1911, se inauguró la segunda sede del
+            Bellas Artes: el Pabellón Argentino, una estructura monumental que
+            el país había utilizado en la Exposición Universal de París de 1889
+            y que fue instalada en la Plaza San Martín. Allí, se exhibieron
+            nuevas adquisiciones que ampliaron la colección, como La ninfa
+            sorprendida, de Édouard Manet, y Orillas del Sena, de Claude Monet.
+            La institución fue trasladada en 1933 a su sede actual: la antigua
+            Casa de Bombas de Recoleta, remodelada por el arquitecto Alejandro
+            Bustillo. Durante esos años, se incorporaron destacadas piezas,
+            entre ellas, Mujer del mar, de Paul Gauguin, Le Moulin de la
+            Galette, de Vincent van Gogh, y Jesús en el huerto de los Olivos, de
+            El Greco.
+          </p>
+          <img class="img-fluid" src="../img/seccion-historia.jpg" />
+
+          <p>
+            Las últimas décadas del siglo XX acogieron a grandes referentes del
+            arte moderno internacional. Así, se sumaron obras de Pablo Picasso,
+            Amedeo Modigliani, Marc Chagall, Vassily Kandinsky, Paul Klee, Lucio
+            Fontana, Jackson Pollock, Mark Rothko y Henry Moore. La historia de
+            la producción local también se narra en las salas del Museo, que
+            exhibe un vasto panorama de arte argentino, con obras de sus mayores
+            representantes como Cándido López, Prilidiano Pueyrredón, Emilio
+            Pettoruti, Xul Solar, Raquel Forner, Grete Stern, Antonio Berni,
+            Alicia Penalba, Gyula Kosice, Marta Minujín, Antonio Seguí y León
+            Ferrari. Además, posee un importante conjunto de arte
+            latinoamericano, que reúne obras de Pedro Figari, Joaquín Torres
+            García, Tarsila Do Amaral, Diego Rivera y Jesús Rafael Soto, entre
+            otras. En sus más de 120 años, el Museo Nacional de Bellas Artes ha
+            formado una importante colección de más de trece mil piezas de
+            diferentes períodos artísticos, nacionales e internacionales, que lo
+            constituye como una de las instituciones culturales más relevantes
+            del continente.
+          </p>
         </div>
       </div>
-    </main>
-    <footer>
-      <div class="footer">
-        <div class="redes-sociales">
-          <a
-            href="https://www.facebook.com/MNBAArgentina/?locale=es_LA"
-            target="_blank"
-            ><img src="../img/icono-facebook.png"
-          /></a>
-          <a
-            href="https://www.instagram.com/bellasartes argentina/?hl=es"
-            target="_blank"
-            ><img src="../img/icono-instagram.png"
-          /></a>
-          <a href="https://ar.pinterest.com/MNBAArgentina/" target="_blank"
-            ><img src="../img/icono-pinterest.png"
-          /></a>
-          <a
-            href="https://twitter.com/BellasArtesAR?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
-            target="_blank"
-            ><img src="../img/icono-x.png"
-          /></a>
-          <a
-            href="https://www.youtube.com/channel/UCkHdRwK3fQp01YEUCla-8PA"
-            target="_blank"
-            ><img src="../img/icono-youtube.png"
-          /></a>
+    </div>
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="row redes-sociales">
+          <div class="col-lg-12">
+            <a
+              href="https://www.facebook.com/MNBAArgentina/?locale=es_LA"
+              target="_blank"
+              ><img src="../img/icono-facebook.png"
+            /></a>
+            <a
+              href="https://www.instagram.com/bellasartes argentina/?hl=es"
+              target="_blank"
+              ><img src="../img/icono-instagram.png"
+            /></a>
+            <a href="https://ar.pinterest.com/MNBAArgentina/" target="_blank"
+              ><img src="../img/icono-pinterest.png"
+            /></a>
+            <a
+              href="https://twitter.com/BellasArtesAR?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+              target="_blank"
+              ><img src="../img/icono-x.png"
+            /></a>
+            <a
+              href="https://www.youtube.com/channel/UCkHdRwK3fQp01YEUCla-8PA"
+              target="_blank"
+              ><img src="../img/icono-youtube.png"
+            /></a>
+          </div>
         </div>
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
