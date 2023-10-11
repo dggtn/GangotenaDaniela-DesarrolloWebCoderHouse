@@ -5,6 +5,12 @@
   padding: 0;
 }
 
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+  }
+
 body {
   font-family: "Lexend Deca", sans-serif;
 }
@@ -48,7 +54,7 @@ body {
   height: 512px;
 }
 
-.seccion-bienvenida.fondo-agenda {
+.fondo-agenda {
   background-image: url("../img/fondo-agenda.jpg");
 }
 
@@ -106,7 +112,7 @@ div.center {
   padding-top: 5%;
 }
 
-.row {
+.fila {
   display: flex;
 }
 
@@ -250,3 +256,4 @@ button {
   border-color: solid #e45484;
   background-color: #e45484;
 }
+
