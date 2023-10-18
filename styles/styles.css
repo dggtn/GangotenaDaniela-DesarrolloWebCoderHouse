@@ -115,11 +115,18 @@ div.center {
 .fila {
   display: flex;
 }
+.fila1{
+  display: flex;
+
+}
 
 .column {
   flex: 50%;
 }
+.column2{
+  flex: 50%;
 
+}
 .fondo-rosa {
   background-color: rgba(94, 0, 24, 0.5);
 }
@@ -256,4 +263,42 @@ button {
   border-color: solid #e45484;
   background-color: #e45484;
 }
+
+
+@media (min-width: 701px) {
+
+
+  .footer {
+  position: fixed;
+    bottom: 0px;            
+}
+  }
+
+  .contenedor {
+    flex-flow: row nowrap;
+  }
+ 
+
+
+@media (max-width: 700px) {
+  .column2{
+      display:flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
+    }
+  }
+
+  .contenedor {
+    display:flex;
+    flex-wrap: nowrap;
+  }
+
+  .col-2 {
+    width: 100%;
+  }
+
+  main {
+    min-height: 85vh;
+  }
+
 
