@@ -274,12 +274,13 @@ button {
 /* MEDIA QUERIES MOVILE*/ 
 @media (max-width: 700px) 
 {
-  .seccion h2,
-  .seccion h3,
-  .seccion h4 {
-    text-align: center;
-    text-shadow: 1px 1px 2px pink;
-    font-size: small;}
+
+iframe {
+  display: none;
+}
+ul{
+  display: none;
+}
 
   .galeria{
   display: flex;
