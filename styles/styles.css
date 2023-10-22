@@ -30,27 +30,7 @@ body {
   padding-bottom: 32px;
 }
 
-.seccion-bienvenida.fondo-inicio {
-  background-image: linear-gradient(to right, rgb(201, 190, 198) , rgb(160, 61, 127));
-  height: 512px;
-}
-
-.fondo-visita {
-  background-image: linear-gradient(to right, rgb(201, 190, 198) , rgb(160, 61, 127));
-  height: 512px;
-}
-
-.fondo-historia {
-  background-image: linear-gradient(to right, rgb(201, 190, 198) , rgb(160, 61, 127));
-  height: 512px;
-}
-
-.seccion-bienvenida.fondo-exhibiciones {
-  background-image: linear-gradient(to right, rgb(201, 190, 198) , rgb(160, 61, 127));
-  height: 512px;
-}
-
-.fondo-agenda {
+.fondo {
   background-image: linear-gradient(to right, rgb(201, 190, 198) , rgb(160, 61, 127));
   height: 512px;
 }
