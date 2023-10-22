@@ -119,6 +119,10 @@ div.center {
   background-color: #f1f1f1;
   height: 32px;
 }
+iframe {
+  max-width: 100%;
+  height: auto;
+ }
 
 .indice {
   top: 0px;
@@ -277,12 +281,25 @@ button {
   justify-content: space-around;
   margin-bottom: 10px;
   }
-  .imagen-galeria{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
+  .galeria{
+    flex-direction: column;
+    width: 100%;
   }
+  .imagen-galeria{
+    flex-direction: column;
+    width: 100%;
+
+  }
+  .imagen-galeria-detalle{
+    flex-direction: column;
+    width: 100%;
+  }
+  .imagen-galeria img{
+    flex-direction: column;
+    width: 100%;
+
+  }
+
   .column2{
       display:flex;
       flex-wrap: nowrap;
