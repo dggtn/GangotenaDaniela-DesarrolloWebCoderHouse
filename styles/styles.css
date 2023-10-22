@@ -5,12 +5,6 @@
   padding: 0;
 }
 
-.carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-    width: 70%;
-    margin: auto;
-  }
-
 body {
   font-family: "Lexend Deca", sans-serif;
 }
@@ -19,6 +13,7 @@ body {
   padding-top: 16px;
   text-align: center;
   background-size: 100% 100%;
+  height: 512px;
 }
 
 .seccion-bienvenida h1 {
@@ -36,26 +31,28 @@ body {
 }
 
 .seccion-bienvenida.fondo-inicio {
-  background-image: url("../img/fondo-inicio.webp");
+  background-image: linear-gradient(to right, rgb(201, 190, 198) , rgb(160, 61, 127));
+  height: 512px;
 }
 
 .fondo-visita {
-  background-image: url("../img/museo.webp");
+  background-image: linear-gradient(to right, rgb(201, 190, 198) , rgb(160, 61, 127));
+  height: 512px;
 }
 
 .fondo-historia {
-  background-image: url("../img/fondo-historia.webp");
-  background-size: 100%;
-  object-fit: contain;
+  background-image: linear-gradient(to right, rgb(201, 190, 198) , rgb(160, 61, 127));
+  height: 512px;
 }
 
 .seccion-bienvenida.fondo-exhibiciones {
-  background-image: url("../img/fondo-exhibiciones.webp");
+  background-image: linear-gradient(to right, rgb(201, 190, 198) , rgb(160, 61, 127));
   height: 512px;
 }
 
 .fondo-agenda {
-  background-image: url("../img/fondo-agenda.webp");
+  background-image: linear-gradient(to right, rgb(201, 190, 198) , rgb(160, 61, 127));
+  height: 512px;
 }
 
 header {
