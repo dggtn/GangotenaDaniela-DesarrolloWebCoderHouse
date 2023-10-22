@@ -54,10 +54,9 @@
       </div>
     </nav>
     <main>
-      <section id="visita" class="seccion-bienvenida fondo-visita">
-        <div>
-          <div class="fila">
-            <div>
+      <div class="container-fluid text-center fondo-visita">
+        <div class="row">
+          <div class="col-md-12">
               <h1 class="animate__animated animate__zoomIn text text-white">Visita al Museo Nacional de Bellas Artes:</h1>
               <p class="text text-white">
                 El Bellas Artes invita al público a recorrer todas sus salas de
@@ -70,25 +69,22 @@
                 gratuitas de septiembre.
               </p>
             </div>
-          </div>
-          <div class="fila">
-            <div class="col-md-12 embed-responsive embed-responsive-16by9">
-              <iframe
-                class="embed-responsive-item"
+          <div class="col-md-12">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item"
                 src="https://www.youtube.com/embed/n105SAfP0e0?si=oBqU6Y8QyoQEhHpw"
                 allowfullscreen
               ></iframe>
             </div>
           </div>
         </div>
+        </div>
       </section>
-      <div class="fila">
-        <div class="column fondo-rosa">
-          <aside class="indice">
-            <div class="texto">
-              <ul>
-                <li>
-                  <a class="seccion h2"href="#visita">Visita al museo Nacional de Bellas Artes</a>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <ul>
+              <li><a class="seccion h2" href="#visita">Visita al museo Nacional de Bellas Artes</a>
                 </li>
                 <li><a class="seccion h2" href="#como-llegar">Cómo llegar</a></li>
                 <li><a class="seccion h2" href="#biblioteca">Biblioteca</a></li>
@@ -98,15 +94,18 @@
                 </li>
               </ul>
             </div>
-          </aside>
         </div>
-        <div class="column2 fondo-violeta">
+      </div>
+      <div class="container-fluid">
+      <div class="row">
+      <div class="col-md-12 text-center fondo-violeta">
+        <h2 class="text-white">
           <!-- Sección "Como llegar"-->
           <section class="seccion" id="como-llegar">
             <div class="row">
               <div>
                 <h2>Cómo llegar</h2>
-                <iframe
+                <iframe class="embed-responsive-item"
                   src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d105113.5558954201!2d-58.47540555502806!3d-34.583961710035425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x95bccaa199c2f643%3A0x49e543b8331abe7d!2sAv.%20del%20Libertador%201473%2C%20Buenos%20Aires!3m2!1d-34.5839894!2d-58.393004399999995!5e0!3m2!1ses-419!2sar!4v1695498507424!5m2!1ses-419!2sar"
                   width="400"
                   height="300"
@@ -270,6 +269,8 @@
           </div>
         </div>
       </div>
+    </div>
+  </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>

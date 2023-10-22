@@ -284,6 +284,19 @@ button {
 /* MEDIA QUERIES MOVILE*/ 
 @media (max-width: 700px) 
 {
+  .galeria{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  }
+  .imagen-galeria{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
   .column2{
       display:flex;
       flex-wrap: nowrap;
